@@ -10,10 +10,10 @@ interesescesantias = cesantias*0.12/dias
 vacaciones = salario*dias/720
 liquidacion = prima+cesantias+interesescesantias+vacaciones
 
-print(f"prima: ${round(prima, 2)} "
-      f"cesantias: ${round(cesantias, 2)} "
-      f"interesescesantias: ${round(interesescesantias, 2)} "
-      f"vacaciones: ${round(vacaciones, 2)} "
-      f"liquidacion: ${round(liquidacion, 2)} ")
+print(f"prima: ${round(prima, 2)}")
+print(f"cesantias: ${round(cesantias, 2)}")
+print(f"interesescesantias: ${round(interesescesantias, 2)}")
+print(f"vacaciones: ${round(vacaciones, 2)}")
+print(f"liquidacion: ${round(liquidacion, 2)}")
 
 
